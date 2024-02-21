@@ -1,0 +1,145 @@
+{
+    "intents":[
+  {
+    "tag": "greeting",
+    "padrao": [
+       "Olá",
+       "Como vai você?",
+       "Você está aí?",
+       "Oi",
+       "Bom dia",
+       "Boa tarde",
+       "Boa noite",
+       "E aí?",
+       "Tudo bem?",
+       "Ei",
+       "Qual é?",
+       "??"
+    ],
+    "respostas": [
+       "Olá!",
+       "Bom ver você novamente!",
+       "Oi, como posso te ajudar hoje?"
+    ],
+    "contexto": ""
+ },
+  {
+    "tag": "Adeus",
+    "padrao": [
+       "xau",
+       "tchau",
+       "ate",
+       "tmj",
+       "obg",
+       "certo",
+       "ta certo",
+       "ok, obg",
+       "ate mais",
+       "vlw",
+       "blz",
+       "byebye"
+    ],
+    "respostas": [
+       "Triste por você partir :(",
+       "Falo com você mais tarde!",
+       "Tchau Tchau!",
+       "Ok, volte logo!"
+    ],
+    "contexto": ""
+ },
+  {
+    "tag": "pagamento",
+    "padrao": [
+       "Qual seu nome?",
+       "Qual produto você comprou?",
+       "Nos fale seu CPF",
+       "Você tem o ID do produto? Se sim, nos diga",
+       "Se não tiver o ID do produto, nos diga a data da compra",
+       "Você é de qual região?"
+    ],
+    "respostas": [
+       "comprador"
+    ],
+    "contexto": ""
+ },
+  {
+    "tag": "nome",
+    "padrao": [
+       "Qual seu nome?",
+       "Você tem um nome?",
+       "Qual seu pronome?",
+       "Seu nome é?",
+       "Como eu posso te chamar?",
+       "Me diga seu nome?",
+       "Quem é você?",
+       "Você é o(a)?",
+       "Quem está aí?",
+       "Com quem eu estou falando?"
+    ],
+    "respostas": [
+       "Oi, eu sou sua assistente",
+       "Você pode me chamar de assistente",
+       "Eu sou um chatbot",
+       "Estou aqui para te ajudar!"
+    ],
+    "contexto": ""
+ },
+  {
+    "tag": "horas",
+    "padrao": [
+       "quando posso ir?",
+       "que horas abre?",
+       "qual dia de trabalho?",
+       "quem vai abrir a loja?",
+       "que horas vcs abrem?",
+       "horario de operacao?",
+       "posso ir q hrs?"
+    ],
+    "respostas": [
+       "A loja física abre 9:00h e fecha as 22:00h, mas trabalhamos virtualmente também 24/7."
+    ],
+    "contexto": ""
+ },
+  {
+    "tag": "numero",
+    "padrao": [
+       "mais informacao",
+       "informacao de contato",
+       "como eu posso contactar voces?",
+       "qual numero de contato?",
+       "ql o numero de contato?",
+       "me passe o numero de contato",
+       "me fale o numero",
+       "como faco pra ligar pra vcs?",
+       "me passe o contato",
+       "nao consigo entrar em contato",
+       "nao consigo achar o numero de vcs",
+       "como consigo conversar com alguem dai?"
+    ],
+    "respostas": [
+       "Você pode contactar pelo: NUMERO"
+    ],
+    "contexto": ""
+ },
+  {
+    "tag": "produtos",
+    "padrao": [
+       "lista de produtos",
+       "lista de produtos disponiveis",
+       "lista de produtos indisponiveis",
+       "quais os produtos em promocao",
+       "produtos em alta",
+       "produtos de evento(nome do evento)",
+       "produtos oferecidos",
+       "encardes",
+       "produtos bem avaliados",
+       "produtos mal avaliados",
+       "produtos para retirada"
+    ],
+    "respostas": [
+       "Produtos em gerais podem ser avaliados pelo sit clicando no: LINK"
+    ],
+    "contexto": ""
+ }
+ ]
+ }
